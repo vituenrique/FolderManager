@@ -48,7 +48,7 @@ app.service('Global', function ($http) {
 
     this.GetHost = function () {
         var string = "";
-        if (!window.location.host.toLowerCase().includes("localhost")) string = "/SISHCO"
+        if (!window.location.host.toLowerCase().includes("localhost")) string = "http://foldermanager.azurewebsites.net/"
         return string;
     }
 

@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Folder Manager";
+}
+
+<script>
+    var FolderPage = "Index";
+</script>
+
+<div ng-controller="FolderManagerModule" class="jumbotron">
+    <div class="row" style="margin-top: -3vh;">
+        <h3> Folder Manager </h3>
+        <h4> Right-click in a folder to access the avalilable actions. </h4>
+    </div>
+    <div class="row container-tree">
+        <div class="tree-dist" id="folderTree"></div>
+    </div>
+    <div class="row">
+        <button class="btn btn-default" ng-disabled="!hasChanges" ng-click="UpdateData();">Save <i class="fas fa-save"></i></button>
+    </div>
+</div>

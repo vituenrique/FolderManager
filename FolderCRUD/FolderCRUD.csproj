@@ -370,6 +370,9 @@
     <Content Include="Content\jsTree3\themes\proton\fonts\titillium\titilliumweb-regular-webfont.eot" />
     <Content Include="Content\jsTree3\themes\proton\fonts\titillium\titilliumweb-regular-webfont.ttf" />
     <Content Include="Content\jsTree3\themes\proton\fonts\titillium\titilliumweb-regular-webfont.woff" />
+    <None Include="Properties\PublishProfiles\FolderManager - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderManager - ReadOnly - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderManager - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\FolderManager.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\fontawesome\all.js" />
