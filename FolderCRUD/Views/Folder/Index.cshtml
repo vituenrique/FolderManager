@@ -12,9 +12,10 @@
         <h4> Right-click in a folder to access the avalilable actions. </h4>
     </div>
     <div class="row container-tree">
+        <input class="input search_input" type="text" id="search_bar" value="" title="Search Bar" placeholder="Search Bar" >
         <div class="tree-dist" id="folderTree"></div>
     </div>
     <div class="row">
-        <button class="btn btn-default" ng-disabled="!hasChanges" ng-click="UpdateData();">Save <i class="fas fa-save"></i></button>
+        <button class="btn btn-default" ng-disabled="!hasChanges" ng-click="UpdateData();" title="Svae Button">Save <i class="fas fa-save"></i></button>
     </div>
 </div>

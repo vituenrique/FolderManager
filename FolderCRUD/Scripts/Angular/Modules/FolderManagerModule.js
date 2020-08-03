@@ -21,10 +21,19 @@
                 "dblclick_toggle": false,
                 'check_callback': true
             },
-            'plugins': ["themes", "html_data", "ui", "crrm", "contextmenu"],
+            'plugins': ["themes", "html_data", "ui", "crrm", "contextmenu", "search"],
             contextmenu: {
                 items: customMenu
             }
+        });
+
+        var to = false;
+        $('#search_bar').keyup(function () {
+            if (to) { clearTimeout(to); }
+            to = setTimeout(function () {
+                var v = $('#search_bar').val();
+                $('#' + $scope.treeID).jstree(true).search(v);
+            }, 250);
         });
     }
 
