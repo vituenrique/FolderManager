@@ -1,2 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters />
+<parameters>
+  <parameter name="FolderDBEntities-Web.config Connection String" description="FolderDBEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/FolderDBModel.csdl|res://*/FolderDBModel.ssdl|res://*/FolderDBModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\FolderDB.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\victo\\Documents\\Visual\ Studio\ 2015\\Projects\\FolderManager\\FolderCRUD\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='FolderDBEntities']/@connectionString" />
+  </parameter>
+</parameters>

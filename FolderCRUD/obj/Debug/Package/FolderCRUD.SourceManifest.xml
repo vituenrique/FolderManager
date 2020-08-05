@@ -3,4 +3,5 @@
   <IisApp path="C:\Users\victo\Documents\Visual Studio 2015\Projects\FolderManager\FolderCRUD\obj\Debug\Package\PackageTmp" />
   <setAcl path="C:\Users\victo\Documents\Visual Studio 2015\Projects\FolderManager\FolderCRUD\obj\Debug\Package\PackageTmp" setAclResourceType="Directory" />
   <setAcl path="C:\Users\victo\Documents\Visual Studio 2015\Projects\FolderManager\FolderCRUD\obj\Debug\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\victo\Documents\Visual Studio 2015\Projects\FolderManager\FolderCRUD\obj\Debug\Package\PackageTmp\App_Data" setAclResourceType="Directory" setAclAccess="Write" />
 </sitemanifest>
